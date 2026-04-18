@@ -1,0 +1,97 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+nav{
+    background-color:#2C1810;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    color: #F5E6D3;
+}
+
+.list{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+    color: #F5E6D3;
+}
+button{
+    background-color: #D4824E;
+    color: aliceblue;
+    border: none;
+    padding: 10px 20px;
+    margin: 0% auto;
+}
+h1{
+    color: aliceblue;
+    font-size: 65px;
+    padding-top: 100px;
+
+}
+.new{
+    background-image: url(./cofee.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    padding-top:0%;
+    text-align: center;
+    margin-top: auto;
+}
+h3{
+    color:#F5E6D3 ;
+    
+}
+button{
+    background-color: #D4824E;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+}
+.good{
+    background-color: #F5E6D3;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-top:auto;
+}
+.go{
+    flex: 1;
+    margin: 0 15px;
+    text-align: center;
+    padding: 10px;
+
+}
+.end{
+    display: flex;
+    justify-content: center;
+    background-color: #8B5E3C;
+    color: aliceblue;
+    padding: 20px;
+}
+h3{
+    color:black;
+}
+h4{
+    color:black ;
+}
+h5{
+    background-color:#8B5E3C ;
+    text-align: center;
+    color: #F5E6D3;
+    padding: 5px 10px;
+    
+}
+.vertical-divider{
+    width: 2px;
+    height: 100%;
+    background-color:#D4824E ;
+    align-self: center;
+}
+
+
+
